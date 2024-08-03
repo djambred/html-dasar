@@ -19,7 +19,7 @@ h1 {
 
 .sample-image {
     width: 100%;
-    max-width: 500px; /* Adjust the max-width as needed */
+    max-width: 500px;
     height: auto;
     border: 2px solid #ddd;
     border-radius: 8px;

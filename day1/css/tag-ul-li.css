@@ -18,17 +18,17 @@ h1 {
 }
 
 .sample-list {
-    list-style-type: square; /* Change list bullet to squares */
-    padding-left: 20px; /* Indent the list items */
+    list-style-type: square;
+    padding-left: 20px;
 }
 
 .sample-list li {
-    margin-bottom: 10px; /* Space between list items */
-    color: #555; /* Text color */
+    margin-bottom: 10px;
+    color: #555;
 }
 
 .sample-list li:hover {
-    background-color: #e0e0e0; /* Highlight on hover */
-    padding: 5px; /* Add padding on hover */
-    border-radius: 4px; /* Round the corners */
+    background-color: #e0e0e0;
+    padding: 5px;
+    border-radius: 4px;
 }
