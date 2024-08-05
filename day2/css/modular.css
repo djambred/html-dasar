@@ -1,0 +1,43 @@
+/* Custom styles for the container */
+.container {
+    padding-top: 20px; /* Add some padding at the top */
+    padding-bottom: 20px; /* Add some padding at the bottom */
+}
+
+/* Custom styles for the main heading */
+h1 {
+    text-align: center; /* Center align the main heading */
+    margin-bottom: 20px; /* Add margin below the heading */
+    font-weight: bold; /* Make the heading bold */
+    color: #333; /* Set the text color */
+}
+
+/* Custom styles for the module headings */
+h2 {
+    font-size: 1.5rem; /* Set a consistent font size */
+    font-weight: bold; /* Make the module headings bold */
+    color: #007bff; /* Use a primary color for the headings */
+    margin-bottom: 10px; /* Add margin below the headings */
+}
+
+/* Custom styles for the module content */
+p {
+    font-size: 1rem; /* Set a consistent font size */
+    color: #555; /* Set the text color */
+    line-height: 1.5; /* Improve readability with line spacing */
+}
+
+/* Add some padding to the modules */
+.col-md-4 {
+    padding: 15px; /* Add padding inside each module */
+    background-color: #f8f9fa; /* Light background color */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 20px; /* Add margin at the bottom for spacing */
+}
+
+/* Optional: Add hover effect for the modules */
+.col-md-4:hover {
+    background-color: #e9ecef; /* Slightly darker background on hover */
+    border-color: #ccc; /* Slightly darker border on hover */
+}

@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./src:/usr/share/nginx/html
+      - ./css:/usr/share/nginx/css
+      - ./assets:/usr/share/nginx/assets

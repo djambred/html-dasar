@@ -1,0 +1,56 @@
+/* Custom styles for headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #333; /* Set a standard text color */
+}
+
+/* Custom styles for the lead paragraph */
+p.lead {
+    font-size: 1.25rem; /* Larger font size for lead paragraphs */
+    color: #555; /* Slightly lighter color for better readability */
+}
+
+/* Custom styles for normal paragraphs */
+p {
+    color: #444; /* Set a standard text color for paragraphs */
+    line-height: 1.6; /* Improve readability with better line spacing */
+}
+
+/* Custom styles for small text */
+p small {
+    color: #777; /* Lighter color for small text */
+}
+
+/* Custom styles for bold text */
+p strong {
+    font-weight: bold; /* Ensure bold text is emphasized */
+    color: #000; /* Use black for bold text */
+}
+
+/* Custom styles for italic text */
+p em {
+    font-style: italic; /* Italicize the text */
+    color: #666; /* Slightly lighter color for italic text */
+}
+
+/* Custom styles for muted text */
+p.text-muted {
+    color: #6c757d !important; /* Use Bootstrap's muted text color */
+}
+
+/* Custom styles for blockquote */
+.blockquote {
+    padding: 1rem; /* Add padding around the blockquote */
+    background-color: #f8f9fa; /* Light background color for blockquote */
+    border-left: 5px solid #ddd; /* Add a left border to the blockquote */
+    margin-bottom: 1rem; /* Add margin at the bottom */
+}
+
+.blockquote-footer {
+    color: #6c757d; /* Use Bootstrap's muted text color for the footer */
+}
+
+/* Custom styles for the container */
+.container {
+    max-width: 800px; /* Limit the container width */
+    margin: auto; /* Center container horizontally */
+}
